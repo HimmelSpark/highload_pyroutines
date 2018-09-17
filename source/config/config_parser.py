@@ -9,8 +9,7 @@ class ConfigParser(object):
         # / etc / httpd.conf
         data = {}
         try:
-            with open('/Users/petrosadaman/Documents/kaka.txt') as config_file:
-                logging.basicConfig(level=logging.DEBUG)
+            with open('/Users/petrosadaman/Documents/kaka.conf') as config_file:
                 for line in config_file:
                     if not line:
                         continue
