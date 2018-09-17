@@ -61,6 +61,7 @@ class Executor(object):
             if os.path.exists(full_path):
                 ftype = full_path.split('/')[-1].split('.')[-1]
 
+
                 async with aiofiles.open(full_path, mode='rb') as file:
                     res = await file.read()
                     filesize = len(res)
