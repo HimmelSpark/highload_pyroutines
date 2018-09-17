@@ -14,6 +14,6 @@ class ResponseSerializer(object):
         result += 'Date: {} \n'.format(response.date)
         result += 'Content-Length: {} \n'.format(response.content_length)
         result += 'Content-Type: {} \n'.format(response.content_type)
-        result += 'Connection: {}\n'.format(response.connection)
+        # result += 'Connection: {}\n'.format(response.connection)
         result += 'Server: {}\r\n\r\n'.format('server')
         return result.encode('ascii') + response.body
