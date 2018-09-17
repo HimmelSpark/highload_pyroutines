@@ -54,7 +54,7 @@ class Executor(object):
                     )
             else:
                 return Response(
-                    status=Response.NOT_FOUND,
+                    status=Response.FORBIDDEN,
                     protocol=protocol
                 )
         else:
@@ -65,7 +65,10 @@ class Executor(object):
                     res = await file.read()
                     filesize = len(res)
                     if method == 'HEAD':
-                        res = b''
+                        return Response(
+                            status=Response.OK,
+                            protocol=protocol
+                        )
                     return Response(
                         status=Response.OK,
                         protocol=protocol,
