@@ -10,10 +10,10 @@ class ResponseSerializer(object):
     def serialize(response: Response):
         result = str()
         result += response.protocol
-        result += ' ' + response.status + '\n'
-        result += 'Date: {} \n'.format(response.date)
-        result += 'Content-Length: {} \n'.format(response.content_length)
-        result += 'Content-Type: {} \n'.format(response.content_type)
+        result += ' ' + response.status + '\r\n'
+        result += 'Date:{} \r\n'.format(response.date)
+        result += 'Content-Length:{} \r\n'.format(response.content_length)
+        result += 'Content-Type:{} \r\n'.format(response.content_type)
         # result += 'Connection: {}\n'.format(response.connection)
-        result += 'Server: {}\r\n\r\n'.format('server')
+        result += 'Server:{}\r\n\r\n'.format('server')
         return result.encode('ascii') + response.body

@@ -65,10 +65,7 @@ class Executor(object):
                     res = await file.read()
                     filesize = len(res)
                     if method == 'HEAD':
-                        return Response(
-                            status=Response.OK,
-                            protocol=protocol
-                        )
+                        res = b''
                     return Response(
                         status=Response.OK,
                         protocol=protocol,
