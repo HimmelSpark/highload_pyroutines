@@ -41,7 +41,9 @@ class Executor(object):
         print(full_path, end='____________________\n')
 
         if os.path.isdir(full_path):
+            print('is_dir', end='____________________\n')
             if os.path.exists(full_path + 'index.html'):
+                print('exists', end='___________________\n')
                 async with aiofiles.open(full_path + 'index.html', mode='rb') as file:
                     res = await file.read()
                     filesize = len(res)
@@ -58,12 +60,15 @@ class Executor(object):
                         body=res
                     )
             else:
+                print('NOT exists', end='___________________\n')
                 return Response(
                     status=Response.FORBIDDEN,
                     protocol=protocol
                 )
         else:
+            print('is_NOT_dir', end='____________________\n')
             if os.path.exists(full_path):
+                print('FILE exists', end='___________________\n')
                 ftype = full_path.split('/')[-1].split('.')[-1]
 
                 async with aiofiles.open(full_path, mode='rb') as file:
@@ -82,6 +87,7 @@ class Executor(object):
                         body=res
                     )
             else:
+                print('FILE NOT exists', end='___________________\n')
                 return Response(
                     status=Response.NOT_FOUND,
                     protocol=protocol

@@ -10,7 +10,7 @@ class Config(object):
             self._host = host
 
         if port is None:
-            self._port = 8000
+            self._port = 80
         else:
             self._port = port
 

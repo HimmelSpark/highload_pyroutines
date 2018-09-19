@@ -13,7 +13,7 @@ RUN apt-get -y install apache2-utils
 
 ADD . .
 
-COPY ./http-test-suite/httptest/ /var/www/html/
+COPY ./http-test-suite/ /var/www/html/
 
 COPY ./default.conf /
 
