@@ -38,6 +38,8 @@ class Executor(object):
                 protocol=protocol
             )
 
+        print(full_path, end='____________________\n')
+
         if os.path.isdir(full_path):
             if os.path.exists(full_path + 'index.html'):
                 async with aiofiles.open(full_path + 'index.html', mode='rb') as file:
