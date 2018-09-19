@@ -17,4 +17,4 @@ EXPOSE 80
 
 CMD python3 source/main.py
 
-CMD python http-test-suite/httptest.py
+#CMD python http-test-suite/httptest.py
