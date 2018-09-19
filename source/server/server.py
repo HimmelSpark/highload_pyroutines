@@ -1,7 +1,7 @@
 import asyncio
 
-from source.config.config import Config
-from source.handler.handler import Handler
+from config.config import Config
+from handler.handler import Handler
 
 
 class Server(object):

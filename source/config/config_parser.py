@@ -1,6 +1,6 @@
 import logging
 
-from source.config.config import Config
+from config.config import Config
 
 
 class ConfigParser(object):

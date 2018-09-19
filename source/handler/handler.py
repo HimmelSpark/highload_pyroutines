@@ -1,7 +1,7 @@
 from asyncio import StreamReader, StreamWriter
 
-from source.handler.executor import Executor
-from source.handler.response_serializer import ResponseSerializer
+from handler.executor import Executor
+from handler.response_serializer import ResponseSerializer
 
 
 class Handler(object):

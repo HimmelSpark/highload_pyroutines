@@ -1,4 +1,4 @@
-from source.handler.response import Response
+from handler.response import Response
 
 
 class ResponseSerializer(object):

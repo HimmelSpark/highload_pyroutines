@@ -2,10 +2,10 @@ import asyncio
 import logging
 import os
 # import uvloop
-from source.config.config_parser import ConfigParser
-from source.handler.executor import Executor
-from source.handler.handler import Handler
-from source.server.server import Server
+from config.config_parser import ConfigParser
+from handler.executor import Executor
+from handler.handler import Handler
+from server.server import Server
 from multiprocessing import Process
 
 # forks = []

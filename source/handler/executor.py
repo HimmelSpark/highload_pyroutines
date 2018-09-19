@@ -1,5 +1,5 @@
-from source.config.config import Config
-from source.handler.response import Response
+from config.config import Config
+from handler.response import Response
 import os
 import aiofiles
 import urllib.parse
