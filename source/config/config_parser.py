@@ -14,7 +14,7 @@ class ConfigParser(object):
                     if not line:
                         continue
                     pair = line.strip().split(' ')
-                    key: str = pair[0]
+                    key = pair[0]
                     try:
                         value: str = pair[1]
                         data.update({key: value})
