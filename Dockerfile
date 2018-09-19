@@ -20,5 +20,3 @@ ADD . .
 EXPOSE 80
 
 CMD python3 source/main.py
-
-CMD ls -la
