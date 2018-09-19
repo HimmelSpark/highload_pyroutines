@@ -11,14 +11,14 @@ RUN pip3 install asyncio &&\
 
 RUN apt-get -y install apache2-utils
 
-#ADD . .
-
 COPY ./http-test-suite/httptest/ /var/www/html/
 
 COPY ./default.conf /
 
+ADD . .
 
 EXPOSE 80
 
 CMD python3 source/main.py
+
 CMD ls -la
