@@ -45,6 +45,9 @@ class Executor(object):
                     filesize = len(res)
                     if method == 'HEAD':
                         res = b''
+
+                    file.close()
+
                     return Response(
                         status=Response.OK,
                         protocol=protocol,
@@ -66,6 +69,9 @@ class Executor(object):
                     filesize = len(res)
                     if method == 'HEAD':
                         res = b''
+
+                    file.close()
+
                     return Response(
                         status=Response.OK,
                         protocol=protocol,
