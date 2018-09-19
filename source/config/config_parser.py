@@ -14,9 +14,9 @@ class ConfigParser(object):
                     if not line:
                         continue
                     pair = line.strip().split(' ')
-                    key = pair[0]
+                    key = str(pair[0])
                     try:
-                        value: str = pair[1]
+                        value = str(pair[1])
                         data.update({key: value})
                     except IndexError:
                         logging.debug('Config param "{0}" not provided'.format(key))
