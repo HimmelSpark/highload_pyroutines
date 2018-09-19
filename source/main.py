@@ -1,5 +1,5 @@
 import asyncio
-import logging
+# import logging
 import os
 # import uvloop
 from config.config_parser import ConfigParser
@@ -8,10 +8,10 @@ from handler.handler import Handler
 from server.server import Server
 from multiprocessing import Process
 
-# forks = []
 procs = []
 
 
+# forks = []
 # if __name__ == '__main__':
 #     config = ConfigParser.parse()
 #
