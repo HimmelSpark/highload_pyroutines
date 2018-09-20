@@ -22,13 +22,10 @@ class Handler(object):
             if data[-4:] == b'\r\n\r\n':
                 break
 
-        request = self.decode_data(data)
+        request = data.decode('utf-8').strip('\r\n')
+
         response = await self.executor.execute(request)
         data = ResponseSerializer.serialize(response=response)
-        print(data)
         writer.write(data)
         await writer.drain()
         writer.close()
-
-    def decode_data(self, data: bytearray):
-        return data.decode('utf-8').strip('\r\n')

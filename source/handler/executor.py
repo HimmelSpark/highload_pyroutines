@@ -38,7 +38,7 @@ class Executor(object):
                 protocol=protocol
             )
 
-        print(full_path, end='____________________\n')
+        print(full_path, os.getpid(), end='____________________\n')
 
         if os.path.isdir(full_path):
             print('is_dir', end='____________________\n')

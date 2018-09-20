@@ -3,7 +3,7 @@
 
 
 class Config(object):
-    def __init__(self, host='0.0.0.0', port=80, cpu_count=4, threads=20, root_dir='/var/www/html'):
+    def __init__(self, host='0.0.0.0', port=8000, cpu_count=4, threads=20, root_dir='/var/www/html'):
         if host is None:
             self._host = '0.0.0.0'
         else:
