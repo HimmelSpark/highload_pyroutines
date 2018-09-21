@@ -11,6 +11,10 @@ class Executor(object):
 
     async def execute(self, request: str) -> Response:
         #     return Response(Response.METHOD_NOT_ALLOWED)
+
+        if len(request) == 0:
+            return
+
         request = request.split('\r\n')
 
         line_1 = request[0].split(' ')
@@ -38,7 +42,7 @@ class Executor(object):
                 protocol=protocol
             )
 
-        print(full_path, os.getpid(), end='____________________\n')
+        # print(full_path, os.getpid(), end='____________________\n')
 
         if os.path.isdir(full_path):
             if os.path.exists(full_path + 'index.html'):
@@ -47,7 +51,6 @@ class Executor(object):
                     filesize = len(res)
                     if method == 'HEAD':
                         res = b''
-
                     file.close()
 
                     return Response(

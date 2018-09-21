@@ -22,10 +22,10 @@ class Handler(object):
             if data[-4:] == b'\r\n\r\n':
                 break
 
-        request = data.decode('utf-8').strip('\r\n')
-
-        response = await self.executor.execute(request)
-        data = ResponseSerializer.serialize(response=response)
-        writer.write(data)
-        await writer.drain()
+        if len(data) > 0:
+            request = data.decode('utf-8').strip('\r\n')
+            response = await self.executor.execute(request)
+            data = ResponseSerializer.serialize(response=response)
+            writer.write(data)
+            await writer.drain()
         writer.close()
