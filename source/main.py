@@ -2,10 +2,9 @@ import asyncio
 import uvloop
 import os
 import socket
-# import logging
+import logging
 
 from multiprocessing import Process
-
 
 from config.config_parser import ConfigParser
 from handler.executor import Executor
@@ -48,12 +47,11 @@ procs = []
 
 
 def start(conf, sock):
-
     loop = asyncio.get_event_loop()
 
     try:
         asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
-        print('running source with PID: {}'.format(str(os.getpid())))
+        logging.info('running source with PID {}'.format(str(os.getpid())))
         for _ in range(0, int(conf.threads)):
             handler = Handler(conf.root_dir, Executor(conf))
             server = Server(config=conf, loop=loop, handler=handler, sock=sock)
@@ -67,8 +65,11 @@ def start(conf, sock):
 if __name__ == '__main__':
 
     config = ConfigParser.parse()
-    print('host: {}\nport: {}\nthreads: {}\ncpu_count: {}'.
-          format(config.host, config.port, config.threads,config.cpu_count))
+
+    logging.basicConfig(level=logging.INFO)
+
+    logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.
+                 format(config.host, config.port, config.threads, config.cpu_count))
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((config.host, int(config.port)))
@@ -86,3 +87,6 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         for i in procs:
             i.terminate()
+
+    finally:
+        s.close()

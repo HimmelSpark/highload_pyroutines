@@ -18,7 +18,7 @@ class Response:
         'swf': 'application/x-shockwave-flash'
     }
 
-    def __init__(self, status, protocol, content_type='', content_length=0, body=b''):
+    def __init__(self, status, protocol='', content_type='', content_length=0, body=b''):
         self.status = status
         self.protocol = protocol
         # self.connection = connection

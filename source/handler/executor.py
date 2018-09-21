@@ -10,37 +10,35 @@ class Executor(object):
         self.config = config
 
     async def execute(self, request: str) -> Response:
-        #     return Response(Response.METHOD_NOT_ALLOWED)
 
         if len(request) == 0:
-            return
+            print('ERROR!!! GOT EMPTY REQUEST!!!')
+            return Response(
+                status=Response.FORBIDDEN,
+                protocol='HTTP/1.1'
+            )
+
+        if 'HEAD' not in request and 'GET' not in request:
+            return Response(
+                status=Response.METHOD_NOT_ALLOWED,
+                protocol='HTTP/1.1'
+            )
 
         request = request.split('\r\n')
 
-        line_1 = request[0].split(' ')
-        method = line_1[0]
+        method, path, protocol = request[0].split()
 
-        path = line_1[1]
         path = urllib.parse.unquote(path)
+        path = path.split('?')[0]
 
-        if path.find('?') > 1:
-            path = path[0:path.find('?')]
-
-        protocol = line_1[2]
-
-        if method != 'HEAD' and method != 'GET':
+        if '../' in path:
             return Response(
-                status=Response.METHOD_NOT_ALLOWED,
+                status=Response.NOT_FOUND,
                 protocol=protocol
             )
 
         full_path = self.config.root_dir + path
 
-        if '../' in full_path:
-            return Response(
-                status=Response.NOT_FOUND,
-                protocol=protocol
-            )
 
         # print(full_path, os.getpid(), end='____________________\n')
 
