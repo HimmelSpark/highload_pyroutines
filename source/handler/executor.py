@@ -1,13 +1,13 @@
-from config.config import Config
 from handler.response import Response
 import os
 import aiofiles
 import urllib.parse
 
 
-class Executor(object):
-    def __init__(self, config: Config):
-        self.config = config
+class Executor:
+
+    def __init__(self, root_dir: str()):
+        self.root_dir = root_dir
 
     async def execute(self, request: str) -> Response:
 
@@ -37,7 +37,7 @@ class Executor(object):
                 protocol=protocol
             )
 
-        full_path = self.config.root_dir + path
+        full_path = self.root_dir + path
 
 
         # print(full_path, os.getpid(), end='____________________\n')

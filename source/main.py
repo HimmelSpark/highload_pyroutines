@@ -46,15 +46,15 @@ procs = []
 #
 
 
-def start(conf, sock):
+def start(conf):
     loop = asyncio.get_event_loop()
 
     try:
         asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
         logging.info('running source with PID {}'.format(str(os.getpid())))
         for _ in range(0, int(conf.threads)):
-            handler = Handler(conf.root_dir, Executor(conf))
-            server = Server(config=conf, loop=loop, handler=handler, sock=sock)
+            handler = Handler(conf.root_dir, Executor(conf.root_dir))
+            server = Server(config=conf, loop=loop, handler=handler)
             loop.create_task(server.launch_server())
         loop.run_forever()
 
@@ -71,12 +71,12 @@ if __name__ == '__main__':
     logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.
                  format(config.host, config.port, config.threads, config.cpu_count))
 
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind((config.host, int(config.port)))
+    # s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # s.bind((config.host, int(config.port)))
 
     try:
         for _ in range(0, int(config.cpu_count)):
-            procs.append(Process(target=start, args=([config, s])))
+            procs.append(Process(target=start, args=([config])))
 
         for i in procs:
             i.start()

@@ -6,16 +6,16 @@ from handler.handler import Handler
 
 
 class Server(object):
-    def __init__(self, config: Config, loop, handler: Handler, sock: socket):
+    def __init__(self, config: Config, loop, handler: Handler):
         self.config = config
         self.loop = loop
         self.handler = handler
-        self.sock = sock
 
     async def launch_server(self):
         await asyncio.start_server(
             client_connected_cb=self.handler.handle,
-            sock=self.sock,
+            host=self.config.host,
+            port=self.config.port,
             loop=self.loop,
             reuse_port=True
         )

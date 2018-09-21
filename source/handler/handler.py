@@ -21,19 +21,18 @@ class Handler(object):
             data += await reader.read(1024)
 
             if not data or reader.at_eof():
-                writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED)))
+                writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: такого быть не должно!!!
                 return
 
             if data[-4:] == b'\r\n\r\n':
                 break
 
         if data == b'':
-            writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED)))
+            writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: и этого тоже
             print('shit happened')
             await writer.drain()
             return
 
-        # request = str()
 
         if len(data) > 0:
             request = data.decode('utf-8').strip('\r\n')
@@ -41,6 +40,4 @@ class Handler(object):
             data = ResponseSerializer.serialize(response=response)
             writer.write(data)
             await writer.drain()
-        # else:
-        #     print('EMPTY REQUEST in handler\nrequest: {}\ndata: {}\n________'.format(request, data) ) #TODO: тут может быть ошибка
         writer.close()
