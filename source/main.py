@@ -87,6 +87,3 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         for i in procs:
             i.terminate()
-
-    finally:
-        s.close()
