@@ -4,6 +4,8 @@ from handler.executor import Executor
 from handler.response_serializer import ResponseSerializer
 from handler.response import Response
 
+import logging
+
 
 import logging
 
@@ -21,17 +23,16 @@ class Handler(object):
             data += await reader.read(1024)
 
             if not data or reader.at_eof():
-                writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: такого быть не должно!!!
-                return
+                break
 
             if data[-4:] == b'\r\n\r\n':
                 break
 
-        if data == b'':
-            writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: и этого тоже
-            print('shit happened')
-            await writer.drain()
-            return
+        # if data == b'':
+        #     writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: и этого тоже
+        #     print('shit happened')
+        #     await writer.drain()
+        #     return
 
 
         if len(data) > 0:

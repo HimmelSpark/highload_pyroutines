@@ -12,7 +12,7 @@ from handler.handler import Handler
 from server.server import Server
 
 procs = []
-
+# MAXIMMUM ULIMIT ON MY MAC IS 12288
 
 # forks = []
 # if __name__ == '__main__':
@@ -82,7 +82,8 @@ if __name__ == '__main__':
             i.start()
 
         for i in procs:
-            os.waitpid(i.pid, 0)
+            # os.waitpid(i.pid, 0)
+            i.join()
 
     except KeyboardInterrupt:
         for i in procs:

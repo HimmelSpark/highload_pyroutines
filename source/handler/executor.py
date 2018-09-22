@@ -6,7 +6,6 @@ import logging
 
 
 class Executor:
-
     def __init__(self, root_dir: str()):
         self.root_dir = root_dir
 
@@ -15,6 +14,10 @@ class Executor:
     #
     # async def conc_file_exists(self, path: str) -> bool:
     #     return os.path.exists(path)
+
+    async def readFile(self, path: str) -> bytes:
+        async with aiofiles.open(path, 'rb') as f:
+            return await f.read()
 
 
     async def execute(self, request: str) -> Response:
@@ -95,26 +98,26 @@ class Executor:
         #         )
 
 
-        if '.' in full_path.split('/')[-1]: # if filename provided
+        if '.' in full_path.split('/')[-1]:  # if filename provided
+
             try:
                 ftype = full_path.split('/')[-1].split('.')[-1]
 
-                async with aiofiles.open(full_path, mode='rb') as file:
-                    res = await file.read()
-                    filesize = len(res)
-                    if method == 'HEAD':
-                        res = b''
+                res = await self.readFile(full_path)
+                filesize = len(res)
+                if method == 'HEAD':
+                    res = b''
 
-                    file.close()
 
-                    return Response(
-                        status=Response.OK,
-                        protocol=protocol,
-                        content_type=Response.content_types.get(ftype, ''),
-                        content_length=filesize,
-                        body=res
-                    )
-            except Exception:               # file not found
+                return Response(
+                    status=Response.OK,
+                    protocol=protocol,
+                    content_type=Response.content_types.get(ftype, ''),
+                    content_length=filesize,
+                    body=res
+                )
+
+            except Exception:  # file not found
 
                 logging.info('file: {} not found'.format(full_path))
 
@@ -123,14 +126,14 @@ class Executor:
                     protocol=protocol
                 )
 
-        else:                                  # if dirname provided
+        else:  # if dirname provided
+
             try:
-                async with aiofiles.open(full_path + 'index.html', mode='rb') as file:
-                    res = await file.read()
-                    filesize = len(res)
-                    if method == 'HEAD':
-                        res = b''
-                    file.close()
+                res = await self.readFile(full_path + 'index.html')
+
+                filesize = len(res)
+                if method == 'HEAD':
+                    res = b''
 
                 return Response(
                     status=Response.OK,
@@ -139,7 +142,8 @@ class Executor:
                     content_length=filesize,
                     body=res
                 )
-            except Exception:                   # .html file not found
+
+            except Exception:  # .html file not found
 
                 logging.info('No .html file in {} directory'.format(full_path))
 
@@ -150,49 +154,49 @@ class Executor:
 
 
 
-        # if await self.conc_is_dir(full_path):
-        #     if await self.conc_file_exists(full_path + 'index.html'):
-        #         async with aiofiles.open(full_path + 'index.html', mode='rb') as file:
-        #             res = await file.read()
-        #             filesize = len(res)
-        #             if method == 'HEAD':
-        #                 res = b''
-        #             file.close()
-        #
-        #             return Response(
-        #                 status=Response.OK,
-        #                 protocol=protocol,
-        #                 content_type=Response.content_types['html'],
-        #                 content_length=filesize,
-        #                 body=res
-        #             )
-        #     else:
-        #         return Response(
-        #             status=Response.FORBIDDEN,
-        #             protocol=protocol
-        #         )
-        # else:
-        #     if await self.conc_file_exists(full_path):
-        #
-        #         ftype = full_path.split('/')[-1].split('.')[-1]
-        #
-        #         async with aiofiles.open(full_path, mode='rb') as file:
-        #             res = await file.read()
-        #             filesize = len(res)
-        #             if method == 'HEAD':
-        #                 res = b''
-        #
-        #             file.close()
-        #
-        #             return Response(
-        #                 status=Response.OK,
-        #                 protocol=protocol,
-        #                 content_type=Response.content_types.get(ftype, ''),  # контент тайп будет пустым
-        #                 content_length=filesize,
-        #                 body=res
-        #             )
-        #     else:
-        #         return Response(
-        #             status=Response.NOT_FOUND,
-        #             protocol=protocol
-        #         )
+                # if await self.conc_is_dir(full_path):
+                #     if await self.conc_file_exists(full_path + 'index.html'):
+                #         async with aiofiles.open(full_path + 'index.html', mode='rb') as file:
+                #             res = await file.read()
+                #             filesize = len(res)
+                #             if method == 'HEAD':
+                #                 res = b''
+                #             file.close()
+                #
+                #             return Response(
+                #                 status=Response.OK,
+                #                 protocol=protocol,
+                #                 content_type=Response.content_types['html'],
+                #                 content_length=filesize,
+                #                 body=res
+                #             )
+                #     else:
+                #         return Response(
+                #             status=Response.FORBIDDEN,
+                #             protocol=protocol
+                #         )
+                # else:
+                #     if await self.conc_file_exists(full_path):
+                #
+                #         ftype = full_path.split('/')[-1].split('.')[-1]
+                #
+                #         async with aiofiles.open(full_path, mode='rb') as file:
+                #             res = await file.read()
+                #             filesize = len(res)
+                #             if method == 'HEAD':
+                #                 res = b''
+                #
+                #             file.close()
+                #
+                #             return Response(
+                #                 status=Response.OK,
+                #                 protocol=protocol,
+                #                 content_type=Response.content_types.get(ftype, ''),  # контент тайп будет пустым
+                #                 content_length=filesize,
+                #                 body=res
+                #             )
+                #     else:
+                #         return Response(
+                #             status=Response.NOT_FOUND,
+                #             protocol=protocol
+                #         )
