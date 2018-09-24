@@ -1,5 +1,5 @@
 import asyncio
-import uvloop
+# import uvloop
 import os
 import socket
 import logging
@@ -50,7 +50,7 @@ def start(conf, sock):
     loop = asyncio.get_event_loop()
 
     try:
-        asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+        # asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
         logging.info('running source with PID {}'.format(str(os.getpid())))
         handler = Handler(conf.root_dir, Executor(conf.root_dir))
         for _ in range(0, int(conf.threads)):

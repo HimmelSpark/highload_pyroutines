@@ -13,11 +13,6 @@ RUN pip3 install asyncio &&\
 
 ADD . .
 
-COPY ./test/ /var/www/html/
-
-COPY ./default.conf /
-
-
 EXPOSE 80
 
 CMD python3 source/main.py

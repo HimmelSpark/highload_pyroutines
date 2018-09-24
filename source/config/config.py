@@ -10,14 +10,14 @@ class Config(object):
             self._host = host
 
         if port is None:
-            self._port = 80
+            self._port = 2000
         else:
             self._port = port
 
         if cpu_count is None:
             self._cpu_count = 4
         else:
-            self._cpu_count = cpu_count
+            self._cpu_count = 1
 
         if threads is None:
             self._threads = 20
