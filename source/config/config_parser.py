@@ -9,7 +9,7 @@ class ConfigParser(object):
         # / etc / httpd.conf
         data = {}
         try:
-            with open('/default.conf') as config_file:
+            with open('/etc/httpd.conf') as config_file:
                 for line in config_file:
                     if not line:
                         continue
