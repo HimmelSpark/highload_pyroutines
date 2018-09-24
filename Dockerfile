@@ -9,11 +9,11 @@ RUN pip3 install asyncio &&\
         pip3 install aiofiles &&\
         pip3 install urllib3
 
-RUN apt-get -y install apache2-utils
+#RUN apt-get -y install apache2-utils
 
 ADD . .
 
-COPY ./http-test-suite/ /var/www/html/
+COPY ./test/ /var/www/html/
 
 COPY ./default.conf /
 

@@ -2,10 +2,210 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca3d38f-1241-4709-ad47-d6cd3295dcc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/160313.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/b16261023.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/ef35c.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/logo.v2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/pic_ask.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Alexander_Newski.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Asia_orthographic_projection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Cathedral_Square.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Europe_orthographic_projection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Katun.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Kishi_church_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Klyuchevskoi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Olchon_Shaman_Rock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Petersburg-square.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-Russian-Matroshka_no_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/100px-TenorBalalaika1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/11px-Increase2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/11px-Speakerlink-new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/120px-Carte_du_Conseil_de_lEurope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/120px-Kremlin_27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/120px-PalaceSquare.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/120px-Yekaterinburg_skyline2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/120px-___.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/125px-Flag_of_Russia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/13px-Speaker_Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/16px-Gnome-globe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/16px-Openstreetmap_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-2010_Moscow_Victory_Day_Parade-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Andrej_Rublv_001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Convert_ru_kosmos077.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Ivan_the_Terrible_cropped.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-L.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Lomonosovportrait.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Medved_mzoo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-MininPogjarsky_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Peter_der-Grosse_1838_PR.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-RedSquare_SaintBasile_pixinn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Shukhov_tower_shabolovka_moscow_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Snowdance.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-Soyuz_TMA-2_launch.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/170px-TransSiberianRailwayAtKm9288.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/17px-Boxed_East_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/17px-North.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/17px-South.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/17px-WMA_button2b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/17px-West.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/18px-Commons-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/20px-Padlock-silver.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/21px-Wikiquote-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Alyye_parusa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Archangelsk_taiga.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-BRIC_leaders_in_2008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Countries-SCO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Dmitry_Medvedev_20_May_2008-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Elbrus_North_195.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-IE_expansion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Kazan_church_edit1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Kievan_Rus_en.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Kustodiev_Merchants_Wife.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Lebedev_baptism.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Lenintribune.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Medvedev_-_Russia_Today_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Mir_on_12_June_1998edit1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Moscow_City_May_2010_03.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Moscow_Kremlin_from_Kamenny_bridge.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-NSF_picture_of_Yamal.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-PeterhofGrandCascade.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-RF_NG_pipestoEU.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-RIAN_archive_93172_Defenders_of_Leningrad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Rozh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Russia-2000-stamp-Tatlin_Tower_and_Worker_and_Kolkhoz_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Russian-Matroshka2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-RussianBear.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-RussianLanguageMap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Russian_Empire_orthographic_projection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Russian_Federation_orthographic_projection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Sukhoi_T-50_Beltyukov.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Terapevt_Mudrov_train.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Victory_Day_Parade_2005-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-WTC-Moscow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-Yo-conc3.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/220px-_1118_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Abkhazia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Albania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Argentina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Armenia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Australia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Azerbaijan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Belarus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Bosnia_and_Herzegovina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Brazil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Brunei.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Bulgaria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Cambodia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Canada.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Chile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Croatia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Denmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Estonia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Europe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Finland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_France.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Georgia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Germany.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Greece.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Hong_Kong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_India.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Indonesia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Iran.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Italy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Japan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Kazakhstan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Laos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Latvia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Lithuania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Macedonia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Malaysia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Mexico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Moldova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Mongolia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Montenegro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Myanmar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_New_Zealand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_North_Korea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Norway.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Papua_New_Guinea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Peru.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Poland.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Romania.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Russia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Saudi_Arabia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Serbia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Singapore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Slovakia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Slovenia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_South_Africa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_South_Korea.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Sweden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Thailand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Transnistria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Turkey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Turkmenistan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Ukraine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_Vietnam.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_Czech_Republic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_Peoples_Republic_of_China.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_Philippines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_Republic_of_China.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_United_Kingdom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/22px-Flag_of_the_United_States.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/23px-Wiktionary-logo-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/24px-Wikisource-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/25px-Gnome-globe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/25px-Wikibooks-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/25px-Wikinews-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/25px-Wikiversity-logo-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/25px-Wikivoyage-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/270px-Lissner_TroiceSergievaLavr.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/280px-Russland_Relief.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/300px-Percentage_of_Russians_by_region.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/300px-Russia_natural_population_growth_rates_2012.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/30px-EurasecMap_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/30px-Office-book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/32px-Flag_of_Russia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/350px-Russian_economy_since_fall_of_Soviet_Union.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/37px-Wiktionary-logo-en.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/600px-Russian_Regions-EN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/64px-Flag_of_the_CIS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/80px-Grayushanka.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/80px-Samovar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/85px-Coat_of_Arms_of_the_Russian_Federation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/Compass_rose_pale-50x50.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/magnify-clip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/poweredby_mediawiki_88x31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/search-ltr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/wikimedia-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/dir1/dir12/dir123/deep.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/dir2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/dir2/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/jquery-1.9.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/space in name.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/splash.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/text..txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/geoiplookup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/index_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_002.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_004.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_005.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_006.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_007.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_008.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/httptest/wikipedia_russia_files/load_009.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/default.conf" afterPath="$PROJECT_DIR$/default.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/handler/handler.py" afterPath="$PROJECT_DIR$/source/handler/handler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/main.py" afterPath="$PROJECT_DIR$/source/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/server/server.py" afterPath="$PROJECT_DIR$/source/server/server.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +215,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/highload_pyroutines$main.coverage" NAME="main Coverage Results" MODIFIED="1537796065171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/highload_pyroutines$main.coverage" NAME="main Coverage Results" MODIFIED="1537806108670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/highload_pyroutines$Unittests_for_httptest_HttpServer_test_head_method_.coverage" NAME="Unittests for httptest.HttpServer.test_head_method  Coverage Results" MODIFIED="1537201432145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/http-test-suite" />
     <SUITE FILE_PATH="coverage/highload_pyroutines$executor.coverage" NAME="executor Coverage Results" MODIFIED="1537558452286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/handler" />
     <SUITE FILE_PATH="coverage/highload_pyroutines$Unittests_in_httptest_py.coverage" NAME="Unittests in httptest.py Coverage Results" MODIFIED="1537259528376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/http-test-suite" />
@@ -38,8 +238,18 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/config/config.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/default.conf">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -48,8 +258,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="369">
+              <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#271#307#0" expanded="false" />
@@ -58,24 +268,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/server/server.py">
+      <file leaf-file-name="config_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/config/config_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="executor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/server/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="executor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/handler/executor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+            <state relative-caret-position="30">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
+                <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#1334#1364#0" expanded="false" />
                 <element signature="e#4786#4825#0" expanded="false" />
               </folding>
@@ -96,8 +315,8 @@
       <file leaf-file-name="handler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/handler/handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="228">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -140,17 +359,17 @@
         <option value="$PROJECT_DIR$/source/handler/response_serializer.py" />
         <option value="$PROJECT_DIR$/source/config/config_parser.py" />
         <option value="$PROJECT_DIR$/source/config/config.py" />
-        <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.gitignore/.gitignore" />
         <option value="$PROJECT_DIR$/http-test-suite/httptest.py" />
         <option value="$PROJECT_DIR$/test/httptest.py" />
         <option value="$PROJECT_DIR$/source/handler/request.py" />
         <option value="$PROJECT_DIR$/source/handler/response.py" />
-        <option value="$PROJECT_DIR$/default.conf" />
         <option value="$PROJECT_DIR$/source/handler/handler.py" />
         <option value="$PROJECT_DIR$/source/handler/executor.py" />
         <option value="$PROJECT_DIR$/source/server/server.py" />
         <option value="$PROJECT_DIR$/source/main.py" />
+        <option value="$PROJECT_DIR$/default.conf" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
       </list>
     </option>
   </component>
@@ -205,7 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,11 +438,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="handler" />
+              <option name="myItemId" value="httptest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highload_pyroutines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highload_pyroutines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httptest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dir1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dir12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dir123" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,6 +489,9 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/server" />
@@ -577,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537597069153</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="оптимизэйшон">
+      <created>1537796227368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1537796227368</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -632,9 +891,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2887755" sideWeight="0.491453" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19387755" sideWeight="0.492674" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15262516" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15445666" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39693877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -644,6 +902,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1964462" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.495116" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -700,7 +959,8 @@
     <MESSAGE value="Docker" />
     <MESSAGE value="Shared port problem fix" />
     <MESSAGE value="ХЗ что еще можно улучшить (кроме кэширования)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ХЗ что еще можно улучшить (кроме кэширования)" />
+    <MESSAGE value="оптимизэйшон" />
+    <option name="LAST_COMMIT_MESSAGE" value="оптимизэйшон" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,7 +971,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="61" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -720,13 +980,51 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/server/server.py">
+    <entry file="file://$PROJECT_DIR$/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#271#307#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/handler/handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/handler/response_serializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/handler/executor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1334#1364#0" expanded="false" />
+            <element signature="e#4786#4825#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,6 +1061,7 @@
         <state relative-caret-position="420">
           <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding>
+            <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1334#1364#0" expanded="false" />
             <element signature="e#4786#4825#0" expanded="false" />
           </folding>
@@ -773,58 +1072,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#271#307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/handler/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/handler/response_serializer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/handler/executor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="e#1334#1364#0" expanded="false" />
-            <element signature="e#4786#4825#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/server/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,6 +1109,7 @@
         <state relative-caret-position="1095">
           <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding>
+            <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1334#1364#0" expanded="false" />
             <element signature="e#4786#4825#0" expanded="false" />
           </folding>
@@ -871,9 +1120,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,9 +1170,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,6 +1179,7 @@
         <state relative-caret-position="510">
           <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
+            <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1334#1364#0" expanded="false" />
             <element signature="e#4786#4825#0" expanded="false" />
           </folding>
@@ -955,9 +1201,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,13 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/config/config_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1033,13 +1270,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http-test-suite/httptest/160313.jpg" />
     <entry file="file://$PROJECT_DIR$/http-test-suite/httptest.py" />
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1072,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,36 +1321,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/config/config.py">
+    <entry file="file://$PROJECT_DIR$/source/handler/executor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/handler/handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="30">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1334#1364#0" expanded="false" />
+            <element signature="e#4786#4825#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default.conf">
+    <entry file="file://$PROJECT_DIR$/source/config/config_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="369">
+          <caret line="57" column="52" lean-forward="false" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#271#307#0" expanded="false" />
@@ -1129,24 +1352,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/server/server.py">
+    <entry file="file://$PROJECT_DIR$/source/handler/handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/handler/executor.py">
+    <entry file="file://$PROJECT_DIR$/source/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/httptest/dir1/dir12/dir123/deep.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="true" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-          <folding>
-            <element signature="e#1334#1364#0" expanded="false" />
-            <element signature="e#4786#4825#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

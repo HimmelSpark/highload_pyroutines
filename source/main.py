@@ -46,7 +46,7 @@ procs = []
 #
 
 
-def start(conf):
+def start(conf, sock):
     loop = asyncio.get_event_loop()
 
     try:
@@ -54,11 +54,12 @@ def start(conf):
         logging.info('running source with PID {}'.format(str(os.getpid())))
         handler = Handler(conf.root_dir, Executor(conf.root_dir))
         for _ in range(0, int(conf.threads)):
-            server = Server(config=conf, loop=loop, handler=handler)
+            server = Server(config=conf, loop=loop, handler=handler, sock=sock)
             loop.create_task(server.launch_server())
         loop.run_forever()
 
     finally:
+        print('stop loop', os.getpid())
         loop.stop()
 
 
@@ -71,19 +72,19 @@ if __name__ == '__main__':
     logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.
                  format(config.host, config.port, config.threads, config.cpu_count))
 
-    # s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # s.bind((config.host, int(config.port)))
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.bind((config.host, int(config.port)))
 
     try:
         for _ in range(0, int(config.cpu_count)):
-            procs.append(Process(target=start, args=([config])))
+            procs.append(Process(target=start, args=([config, s])))
 
         for i in procs:
             i.start()
 
         for i in procs:
-            # os.waitpid(i.pid, 0)
-            i.join()
+            # i.join()
+            os.waitpid(i.pid, 0)
 
     except KeyboardInterrupt:
         for i in procs:
