@@ -52,8 +52,8 @@ def start(conf):
     try:
         asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
         logging.info('running source with PID {}'.format(str(os.getpid())))
+        handler = Handler(conf.root_dir, Executor(conf.root_dir))
         for _ in range(0, int(conf.threads)):
-            handler = Handler(conf.root_dir, Executor(conf.root_dir))
             server = Server(config=conf, loop=loop, handler=handler)
             loop.create_task(server.launch_server())
         loop.run_forever()

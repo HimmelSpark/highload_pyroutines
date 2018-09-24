@@ -28,12 +28,6 @@ class Handler(object):
             if data[-4:] == b'\r\n\r\n':
                 break
 
-        # if data == b'':
-        #     writer.write(ResponseSerializer.serialize(Response(status=Response.METHOD_NOT_ALLOWED))) #TODO: и этого тоже
-        #     print('shit happened')
-        #     await writer.drain()
-        #     return
-
 
         if len(data) > 0:
             request = data.decode('utf-8').strip('\r\n')
