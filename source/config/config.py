@@ -17,7 +17,7 @@ class Config(object):
         if cpu_count is None:
             self._cpu_count = 4
         else:
-            self._cpu_count = 1
+            self._cpu_count = cpu_count
 
         if threads is None:
             self._threads = 20

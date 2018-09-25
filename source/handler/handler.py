@@ -2,12 +2,7 @@ from asyncio import StreamReader, StreamWriter
 
 from handler.executor import Executor
 from handler.response_serializer import ResponseSerializer
-from handler.response import Response
 
-import logging
-
-
-import logging
 
 class Handler(object):
     def __init__(self, root, executor: Executor):

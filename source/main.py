@@ -1,5 +1,4 @@
 import asyncio
-# import uvloop
 import os
 import socket
 import logging
@@ -33,11 +32,8 @@ def start(conf, sock):
 if __name__ == '__main__':
 
     config = ConfigParser.parse()
-
     logging.basicConfig(level=logging.INFO)
-
-    logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.
-                 format(config.host, config.port, config.threads, config.cpu_count))
+    logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.format(config.host, config.port, config.threads, config.cpu_count))
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((config.host, int(config.port)))
