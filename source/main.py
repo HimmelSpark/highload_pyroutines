@@ -3,6 +3,10 @@ import os
 import socket
 import logging
 
+
+
+# import cProfile
+
 from multiprocessing import Process
 
 from config.config_parser import ConfigParser
@@ -37,6 +41,7 @@ if __name__ == '__main__':
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((config.host, int(config.port)))
+    s.listen(100)
 
     try:
         for _ in range(0, int(config.cpu_count)):
@@ -51,3 +56,11 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         for i in procs:
             i.terminate()
+
+
+
+# pr = cProfile.Profile()
+# pr.enable()
+# main()
+# pr.disable()
+# pr.print_stats(sort="tottime")

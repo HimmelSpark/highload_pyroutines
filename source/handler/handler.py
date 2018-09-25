@@ -1,3 +1,4 @@
+import logging
 from asyncio import StreamReader, StreamWriter
 
 from handler.executor import Executor
@@ -25,11 +26,15 @@ class Handler(object):
 
 
         if len(data) > 0:
+
             request = data.decode('utf-8').strip('\r\n')
+
             response, fileGenerator = await self.executor.execute(request)
+
             data = ResponseSerializer.serialize(response=response)
             writer.write(data)
             await writer.drain()
+
             if fileGenerator != None:
                 while True:
                     try:
@@ -38,6 +43,10 @@ class Handler(object):
                         await writer.drain()
                         if not chunk:
                             raise StopIteration
+                    except ConnectionResetError:
+                        logging.info('ConnectionResetError')
+                        writer.close()
+                        break
                     except StopIteration:
                         writer.close()
                         break

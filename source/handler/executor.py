@@ -13,9 +13,9 @@ class Executor:
         self.root_dir = root_dir
 
 
-    async def readFile(self, path: str) -> bytes:
-        async with aiofiles.open(path, 'rb') as f:
-            return await f.read()
+    # async def readFile(self, path: str) -> bytes:
+    #     async with aiofiles.open(path, 'rb') as f:
+    #         return await f.read()
 
     async def readFileByChunk(self, path: str) -> bytes:
         with open(path, 'rb') as f:
@@ -55,10 +55,11 @@ class Executor:
 
         full_path = self.root_dir + path
 
-        if '.' in full_path.split('/')[-1]:  # if filename provided
+        last_part = full_path.split('/')[-1]
+        if '.' in last_part:  # if filename provided
 
             try:
-                ftype = full_path.split('/')[-1].split('.')[-1]
+                ftype = last_part.split('.')[-1]
                 fileGenerator = None
                 if method == 'GET':
                     fileGenerator = async_get(full_path)
