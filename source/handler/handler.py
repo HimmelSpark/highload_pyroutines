@@ -31,8 +31,20 @@ class Handler(object):
 
         if len(data) > 0:
             request = data.decode('utf-8').strip('\r\n')
-            response = await self.executor.execute(request)
+            response, fileGenerator = await self.executor.execute(request)
             data = ResponseSerializer.serialize(response=response)
             writer.write(data)
             await writer.drain()
+            if fileGenerator != None:
+                while True:
+                    try:
+                        chunk = next(fileGenerator)
+                        writer.write(chunk)
+                        await writer.drain()
+                        if not chunk:
+                            raise StopIteration
+                    except StopIteration:
+                        writer.close()
+                        break
+
         writer.close()

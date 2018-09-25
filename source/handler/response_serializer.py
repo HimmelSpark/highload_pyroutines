@@ -16,4 +16,4 @@ class ResponseSerializer(object):
         result += 'Content-Type:{} \r\n'.format(response.content_type)
         # result += 'Connection: {}\n'.format(response.connection)
         result += 'Server:{}\r\n\r\n'.format('server')
-        return result.encode('ascii') + response.body
+        return result.encode('ascii')
