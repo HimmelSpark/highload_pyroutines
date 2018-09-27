@@ -1,9 +1,7 @@
-import logging
+from logging import info
 from asyncio import StreamReader, StreamWriter
-
 from handler.executor import Executor
 from handler.response_serializer import ResponseSerializer
-
 
 class Handler(object):
     def __init__(self, root, executor: Executor):
@@ -16,12 +14,19 @@ class Handler(object):
 
         while True:
 
-            data += await reader.read(1024)
+            try:
+                if reader.at_eof():
+                    raise ConnectionError
 
-            if not data or reader.at_eof():
-                break
 
-            if data[-4:] == b'\r\n\r\n':
+                data += await reader.read(1024)
+
+                if not data or \
+                        reader.at_eof() or \
+                                data[-4:] == b'\r\n\r\n':
+                    break
+
+            except ConnectionError:
                 break
 
 
@@ -44,7 +49,7 @@ class Handler(object):
                         if not chunk:
                             raise StopIteration
                     except ConnectionResetError:
-                        logging.info('ConnectionResetError')
+                        info('ConnectionResetError')
                         writer.close()
                         break
                     except StopIteration:

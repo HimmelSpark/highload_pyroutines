@@ -1,7 +1,6 @@
 from handler.response import Response
 from handler.asyncFileReader import async_get
 
-import aiofiles
 import urllib.parse
 import logging
 import os

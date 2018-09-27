@@ -1,27 +1,18 @@
-import asyncio
-import os
-import socket
-import logging
+def startProcess(conf, sock):
+
+    from logging import info
+    from handler.executor import Executor
+    from handler.handler import Handler
+    from server.server import Server
+    from asyncio import get_event_loop
+    from os import getpid
 
 
-
-# import cProfile
-
-from multiprocessing import Process
-
-from config.config_parser import ConfigParser
-from handler.executor import Executor
-from handler.handler import Handler
-from server.server import Server
-
-procs = []
-
-def start(conf, sock):
-    loop = asyncio.get_event_loop()
+    loop = get_event_loop()
 
     try:
-        # asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
-        logging.info('running source with PID {}'.format(str(os.getpid())))
+
+        info('running source with PID {}'.format(str(getpid())))
         handler = Handler(conf.root_dir, Executor(conf.root_dir))
         for _ in range(0, int(conf.threads)):
             server = Server(config=conf, loop=loop, handler=handler, sock=sock)
@@ -29,15 +20,24 @@ def start(conf, sock):
         loop.run_forever()
 
     finally:
-        print('stop loop', os.getpid())
+        print('stop loop', getpid())
         loop.stop()
 
 
-if __name__ == '__main__':
+def createProcesses():
+
+    from logging import basicConfig, info, INFO
+    from config.config_parser import ConfigParser
+    from multiprocessing import Process
+    from os import waitpid
+    import socket
+
+
+    procs = []
 
     config = ConfigParser.parse()
-    logging.basicConfig(level=logging.INFO)
-    logging.info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.format(config.host, config.port, config.threads, config.cpu_count))
+    basicConfig(level=INFO)
+    info('\nhost: {}\nport: {}\nthreads: {}\ncpu_count: {}'.format(config.host, config.port, config.threads, config.cpu_count))
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((config.host, int(config.port)))
@@ -45,22 +45,16 @@ if __name__ == '__main__':
 
     try:
         for _ in range(0, int(config.cpu_count)):
-            procs.append(Process(target=start, args=([config, s])))
+            procs.append(Process(target=startProcess, args=([config, s])))
 
         for i in procs:
             i.start()
 
         for i in procs:
-            os.waitpid(i.pid, 0)
+            waitpid(i.pid, 0)
 
     except KeyboardInterrupt:
         for i in procs:
             i.terminate()
 
-
-
-# pr = cProfile.Profile()
-# pr.enable()
-# main()
-# pr.disable()
-# pr.print_stats(sort="tottime")
+createProcesses()
