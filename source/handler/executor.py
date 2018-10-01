@@ -1,6 +1,6 @@
 from handler.response import Response
 from handler.asyncFileReader import async_get
-
+import asyncio
 import urllib.parse
 import logging
 import os
@@ -28,16 +28,18 @@ class Executor:
 
         if len(request) == 0:
             print('ERROR!!! GOT EMPTY REQUEST!!!')
-            return Response(
+            result = await Response.getResponseOobject(
                 status=Response.FORBIDDEN,
                 protocol='HTTP/1.1'
-            ), None
+            )
+            return result, None
 
         if 'HEAD' not in request and 'GET' not in request:
-            return Response(
+            result = await Response.getResponseOobject(
                 status=Response.METHOD_NOT_ALLOWED,
                 protocol='HTTP/1.1'
-            ), None
+            )
+            return result, None
 
         request = request.split('\r\n')
 
@@ -47,10 +49,13 @@ class Executor:
         path = path.split('?')[0]
 
         if '../' in path:
-            return Response(
+
+            result = await Response.getResponseOobject(
                 status=Response.NOT_FOUND,
                 protocol=protocol
-            ), None
+            )
+
+            return result, None
 
         full_path = self.root_dir + path
 
@@ -64,21 +69,26 @@ class Executor:
                     fileGenerator = async_get(full_path)
                 filesize = os.path.getsize(full_path)
 
-                return Response(
+
+                result = await Response.getResponseOobject(
                     status=Response.OK,
                     protocol=protocol,
                     content_type=Response.content_types.get(ftype, ''),
                     content_length=filesize
-                ), fileGenerator
+                )
+
+                return result, fileGenerator
 
             except FileNotFoundError:  # file not found
 
                 logging.info('file: {} not found'.format(full_path))
 
-                return Response(
+                result = await Response.getResponseOobject(
                     status=Response.NOT_FOUND,
                     protocol=protocol
-                ), None
+                )
+
+                return result, None
 
         else:  # if dirname provided
 
@@ -88,18 +98,17 @@ class Executor:
 
                 fileGenerator = async_get(full_path + 'index.html')
 
-                return Response(
+                result = await Response.getResponseOobject(
                     status=Response.OK,
                     protocol=protocol,
                     content_type=Response.content_types['html'],
                     content_length=filesize
-                ), fileGenerator
+                )
+                return result, fileGenerator
 
             except FileNotFoundError:  # .html file not found
 
                 logging.info('No .html file in {} directory'.format(full_path))
 
-                return Response(
-                    status=Response.FORBIDDEN,
-                    protocol=protocol
-                ), None
+                result = await Response.getResponseOobject(status=Response.FORBIDDEN, protocol=protocol)
+                return result, None

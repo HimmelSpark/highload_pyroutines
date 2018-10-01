@@ -6,8 +6,7 @@ class ResponseSerializer(object):
     def __init__(self):
         pass
 
-    @staticmethod
-    def serialize(response: Response):
+    async def serialize(response: Response):
 
         result = str()
         result += response.protocol

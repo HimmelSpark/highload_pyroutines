@@ -1,14 +1,25 @@
+import signal
+from logging import info
+from os import getpid
+
+def closeHandler(loop):
+    # info('closing e_loop: ', getpid())
+    loop.remove_signal_handler(signal.SIGINT)
+    loop.stop()
+
+
 def startProcess(conf, sock):
 
-    from logging import info
     from handler.executor import Executor
     from handler.handler import Handler
     from server.server import Server
     from asyncio import get_event_loop
-    from os import getpid
+
 
 
     loop = get_event_loop()
+    loop.add_signal_handler(signal.SIGINT, closeHandler, loop)
+
 
     try:
 
@@ -19,9 +30,15 @@ def startProcess(conf, sock):
             loop.create_task(server.launch_server())
         loop.run_forever()
 
-    finally:
-        print('stop loop', getpid())
+    except Exception:
         loop.stop()
+        info('stop loop {}'.format(getpid()))
+
+    finally:
+        loop.stop()
+        info('stop loop {}'.format(getpid()))
+
+
 
 
 def createProcesses():

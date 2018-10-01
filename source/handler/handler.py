@@ -36,7 +36,7 @@ class Handler(object):
 
             response, fileGenerator = await self.executor.execute(request)
 
-            data = ResponseSerializer.serialize(response=response)
+            data = await ResponseSerializer.serialize(response=response)
             writer.write(data)
             await writer.drain()
 

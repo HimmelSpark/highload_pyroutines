@@ -24,3 +24,6 @@ class Response:
         self.content_type = content_type
         self.content_length = content_length
         self.date = datetime.today()
+
+    async def getResponseOobject(status, protocol='', content_type='', content_length=0):
+        return  Response(status, protocol='', content_type='', content_length=0)
