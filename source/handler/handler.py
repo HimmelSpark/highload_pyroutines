@@ -13,30 +13,26 @@ class Handler(object):
         data = b''
 
         while True:
-
             try:
                 if reader.at_eof():
-                    raise ConnectionError
-
+                    break
 
                 data += await reader.read(1024)
 
-                if not data or \
-                        reader.at_eof() or \
-                                data[-4:] == b'\r\n\r\n':
+                if not data or reader.at_eof() or data[-4:] == b'\r\n\r\n':
                     break
 
             except ConnectionError:
                 break
 
-
         if len(data) > 0:
 
             request = data.decode('utf-8').strip('\r\n')
 
-            response, fileGenerator = await self.executor.execute(request)
+            response, fileGenerator = self.executor.execute(request)
 
-            data = await ResponseSerializer.serialize(response=response)
+            data = ResponseSerializer.serialize(response=response)
+
             writer.write(data)
             await writer.drain()
 

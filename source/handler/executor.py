@@ -1,6 +1,5 @@
 from handler.response import Response
 from handler.asyncFileReader import async_get
-import asyncio
 import urllib.parse
 import logging
 import os
@@ -24,18 +23,18 @@ class Executor:
                     break
                 yield chunk
 
-    async def execute(self, request: str) -> []:
+    def execute(self, request: str) -> []:
 
         if len(request) == 0:
             print('ERROR!!! GOT EMPTY REQUEST!!!')
-            result = await Response.getResponseOobject(
+            result = Response.getResponseOobject(
                 status=Response.FORBIDDEN,
                 protocol='HTTP/1.1'
             )
             return result, None
 
         if 'HEAD' not in request and 'GET' not in request:
-            result = await Response.getResponseOobject(
+            result = Response.getResponseOobject(
                 status=Response.METHOD_NOT_ALLOWED,
                 protocol='HTTP/1.1'
             )
@@ -50,7 +49,7 @@ class Executor:
 
         if '../' in path:
 
-            result = await Response.getResponseOobject(
+            result = Response.getResponseOobject(
                 status=Response.NOT_FOUND,
                 protocol=protocol
             )
@@ -70,7 +69,7 @@ class Executor:
                 filesize = os.path.getsize(full_path)
 
 
-                result = await Response.getResponseOobject(
+                result = Response.getResponseOobject(
                     status=Response.OK,
                     protocol=protocol,
                     content_type=Response.content_types.get(ftype, ''),
@@ -83,7 +82,7 @@ class Executor:
 
                 logging.info('file: {} not found'.format(full_path))
 
-                result = await Response.getResponseOobject(
+                result = Response.getResponseOobject(
                     status=Response.NOT_FOUND,
                     protocol=protocol
                 )
@@ -98,7 +97,7 @@ class Executor:
 
                 fileGenerator = async_get(full_path + 'index.html')
 
-                result = await Response.getResponseOobject(
+                result = Response.getResponseOobject(
                     status=Response.OK,
                     protocol=protocol,
                     content_type=Response.content_types['html'],
@@ -110,5 +109,5 @@ class Executor:
 
                 logging.info('No .html file in {} directory'.format(full_path))
 
-                result = await Response.getResponseOobject(status=Response.FORBIDDEN, protocol=protocol)
+                result = Response.getResponseOobject(status=Response.FORBIDDEN, protocol=protocol)
                 return result, None
